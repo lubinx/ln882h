@@ -1,0 +1,33 @@
+{
+  "env": {
+    "toolchain_path": "${userHome}/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi",
+    "libc_path": "${toolchain_path}/lib/gcc/arm-none-eabi/14.2.1"
+  },
+  "configurations": [
+    {
+      "name": "gcc-arm-none-eabi",
+      "includePath": [
+        "${libc_path}/include",
+        "${workspaceFolder}/ultracore/inc",
+        "${workspaceFolder}/ultracore/inc/cmsis",
+        "${workspaceFolder}/ultracore/3party/lc3/inc",
+        "${workspaceFolder}/demo",
+        "${workspaceFolder}/ln882h_device/**",
+        "${workspaceFolder}/include",
+        "${workspaceFolder}/config",
+      ],
+      "defines": [
+        "N32WB452LE",
+        "N32WB452",
+        "SDIO_CLK"
+      ],
+      "compilerPath": "${toolchain_path}/bin/arm-none-eabi-gcc",
+      "cStandard": "c11",
+      "cppStandard": "c++11",
+      "compileCommands": [
+        "${workspaceFolder}/build/compile_commands.json"
+      ]
+    }
+  ],
+  "version": 4
+}

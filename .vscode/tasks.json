@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build demo project",
+      "command": "cmake -B./build -GNinja && ninja -C./build",
+    },
+  ],
+  "group": "build",
+  "type": "shell",
+  "presentation": {
+    "echo": true,
+    "reveal": "always",
+    "focus": false,
+    "panel": "shared",
+    "showReuseMessage": false,
+    "clear": true
+  },
+  "problemMatcher": "$gcc",
+}

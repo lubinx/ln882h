@@ -1,0 +1,40 @@
+# gcc execuable
+*
+!/**/
+!*.*
+!makefile
+!Kconfig
+
+# CMake
+build/
+.cmake/
+demo/config/
+
+# misc
+*.log
+.~*
+*.old
+
+# Keil
+DebugConfig/
+RTE/
+Objects/
+Listings/
+*.uvgui*
+*.scvd
+JLink*
+*.uvoptx
+bin/
+
+# ewarm
+EWARM/
+
+# CMake
+.cmake
+ultracore
+build/
+.downloads
+
+# vscode search & open symlink dir
+!.cmake/
+!ultracore/
