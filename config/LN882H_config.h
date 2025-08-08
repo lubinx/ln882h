@@ -1,5 +1,5 @@
-#ifndef __N32X45X_CONFIG_H
-#define __N32X45X_CONFIG_H
+#ifndef __LN882H_CONFIG_H
+#define __LN882H_CONFIG_H
 
 //***************************************************************************
 //<<< Use Configuration Wizard in Context Menu >>>

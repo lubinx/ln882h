@@ -47,6 +47,8 @@ if(TARGET ${executable})
             "-Wno-conversion"
             "-Wno-sign-conversion"
             "-Wno-enum-compare"
+            "-Wno-type-limits"
+            "-Wno-undef"
     )
 
 #############################################################################
